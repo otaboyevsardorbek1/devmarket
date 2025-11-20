@@ -45,3 +45,30 @@ def categories():
     return render_template('categories.html', 
                          categories=categories_data, 
                          all_products=all_products)
+@main_bp.route('/faq')
+def faq():
+    return render_template('pages/faq.html')
+
+@main_bp.route('/how-to-sell')
+def how_to_sell():
+    return render_template('pages/how_to_sell.html')
+
+@main_bp.route('/how-to-buy')
+def how_to_buy():
+    return render_template('pages/how_to_buy.html')
+
+# @main_bp.route('/safety-rules')
+# def safety_rules():
+#     return render_template('pages/security_rules.html')
+
+# @main_bp.route('/contact')
+# def contact():
+#     return render_template('pages/contact.html')
+
+# @main_bp.route('/terms')
+# def terms():
+#     return render_template('pages/terms.html')
+
+# @main_bp.route('/privacy')
+# def privacy():
+#     return render_template('pages/privacy.html')

@@ -49,7 +49,7 @@ def seed_data():
             price=1200.00,
             category="hardware",
             condition="used",
-            image_url="/static/images/soft_market_logo.jpg",
+            image_url="/static/images/demo/soft_market_logo.jpg",
             seller_id=2
         ),
         Product(
@@ -58,7 +58,7 @@ def seed_data():
             price=700.00,
             category="components",
             condition="used",
-            image_url="/static/images/soft_market_logo.jpg",
+            image_url="/static/images/demo/soft_market_logo.jpg",
             seller_id=2
         ),
         Product(
@@ -67,7 +67,7 @@ def seed_data():
             price=150.00,
             category="projects",
             condition="new",
-            image_url="/static/images/soft_market_logo.jpg",
+            image_url="/static/images/demo/soft_market_logo.jpg",
             seller_id=3
         )
     ]
