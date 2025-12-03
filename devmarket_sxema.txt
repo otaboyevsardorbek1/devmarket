@@ -1,0 +1,31 @@
+devmarket/
+├── app.py
+├── config.py
+├── models.py
+├── routes/
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── products.py
+│   └── main.py
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── auth/
+│   │   ├── login.html
+│   │   └── register.html
+│   ├── products/
+│   │   ├── list.html
+│   │   ├── detail.html
+│   │   └── create.html
+│   └── partials/
+│       ├── header.html
+│       └── footer.html
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+├── data/
+│   └── seed_data.json
+└── requirements.txt
